@@ -1,15 +1,45 @@
-npm install -D tailwindcss
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./stail.css">
     <title></title>
   </head>
   <body>
+    
 
-    <p class="text-amber-700 text-[58px]">nove</p>
+    <header class="sticky top-0 left-0 right-0 w-full h-[96px] bg-white box-sh shadow-zinc-100 shadow-lg">
+      <nav class="flex justify-between contenir">
+        <a href="" class="mt-[22px]">
+          <img src="./log/1.svg" alt="">
+        </a>
+        <div class="div  hidden sm:flex mt-[22px]">
+          <ul class="flex gap-[30px] mt-2">
+            <li><a class="text-[20px] text-blue-800 font-normal" href="./page/flights.html">Flights</a></li>
+            <li><a class="text-[20px] text-blue-800 font-normal"  href="">Hotels</a></li>
+            <li><a class="text-[20px] text-blue-800 font-normal"  href="">Packages</a></li>
+            <li><a class="text-[20px] text-blue-800 font-normal"  href="">Sign in</a></li>
+          </ul>
+          <button class="w-[95px] h-[48px] bg-blue-500 rounded text-white ml-[26px]">Sign up</button>
+        </div>
+        <input type="checkbox" role="button" aria-label="Display the menu" class="menu sm:hidden">
+      </nav>
+    </header>
+
+    <main>
+      <section >
+        <img src="./img/1.svg" alt="" class="w-full">
+        <div class="contenir">
+          <p class="">
+            It’s more than <br>
+            just a trip
+          </p>
+        </div>
+      </section>
+    </main>
 
   </body>
 </html>
